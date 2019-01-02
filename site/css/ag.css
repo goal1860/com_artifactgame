@@ -1,0 +1,388 @@
+
+.badge-danger {
+    color: #fff;
+    background-color: #dc3545!important;
+}
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.badge-warning {
+    color: #212529;
+    background-color: #ffc107!important;
+}
+
+.badge-pill {
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: 0.25rem;
+}
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.03);
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+
+#cardList .row {
+    background: none;
+    padding: 0 0 0 0;
+}
+
+.pr-3 {
+    padding-right: 1.5rem;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card-footer:last-child {
+    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+.card-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0,0,0,0.03);
+    border-top: 1px solid rgba(0,0,0,0.125);
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.form-check {
+    float: left;
+    padding: 0 0.25rem 0 0;
+}
+
+.card-body .row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.form-check-inline {
+    margin-right: .75rem;
+    display: inline-flex;
+
+}
+
+.col-compact {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.cardcolor-black {
+    background-color: #000000!important;
+    color: #ffffff;
+}
+
+.hero-black {
+    color: #000000!important;
+}
+
+.deck-black {
+    color: #000000;
+}
+
+.cardcolor-blue {
+    background-color: #0075c6!important;
+    color: #ffffff;
+}
+.hero-blue {
+    color: #0075c6!important;
+}
+.deck-blue {
+    color: #0075c6;
+}
+.cardcolor-green {
+    background-color: #52bd57!important;
+    color: #ffffff;
+}
+
+.hero-green {
+    color: #52bd57!important;
+}
+.deck-green {
+    color: #52bd57;
+}
+
+.cardcolor-red {
+    background-color: #c5362c!important;
+    color: #ffffff;
+}
+
+.hero-red {
+    color: #c5362c!important;
+}
+
+.deck-red {
+    color: #c5362c;
+}
+
+.mx-2 {
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.mr-2 {
+    margin-right: .5rem;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.p-1 {
+    padding: .25rem;
+}
+
+.table-compact .row {
+    padding: 0!important;
+}
+
+.table-compact .table {
+    margin-left:-10px;
+}
+
+.hoverfinger {
+    cursor: pointer;
+}
+
+.hoverfinger:hover {
+    background-color: #efefef;
+}
+
+.hoverfinger:hover .cross {
+    visibility: visible;
+}
+
+.cursorfinger {
+    cursor: pointer;
+}
+
+.badge-item-width {
+    text-align: center;
+    display: inline-block;
+    min-width: 35px;
+    width: 35px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+    font-size: 14px;
+}
+
+.row-red {
+    background: linear-gradient(90deg, #5b1c1e 25%, #341011);
+    color: #beb78a;
+    vertical-align: middle;
+}
+.row-blue {
+    background: linear-gradient(90deg, #1b3c5a 25%, #0f2233);
+    color: #beb78a;
+    vertical-align: middle;
+}
+.row-black {
+    background: linear-gradient(90deg, #333035 25%, #19181a);
+    color: #beb78a;
+
+}
+.row-green {
+    background: linear-gradient(90deg, #315c1c 25%, #1c3510);
+    color: #beb78a;
+
+}
+
+.row- {
+    background: linear-gradient(90deg, #a78e32 25%, #6c5c20);
+    color: #beb78a;
+
+}
+
+.cardlist .cardimage {
+    width: 40px;
+    max-width: 40px;
+    margin: 0 20px 0 0;
+}
+
+.card-list .icon {
+    width: 28px;
+}
+
+.card-list img {
+    display: inline-block;
+}
+
+.cardlist img.stat-icon {
+    width: 20px;
+}
+
+.cardlist th {
+    vertical-align: middle!important;
+}
+
+.cardlist span.stat-label {
+    color: white;
+    margin: 0 10px 0 10px;
+}
+
+.card-list form {
+    margin: 0 0 0 10px;
+}
+
+.table-responsive .row {
+    padding: 0!important;
+}
+
+.checkmark-red {
+    background-color: #6f2224;
+}
+
+.checkmark-blue {
+    background-color: #21496e;
+}
+
+.checkmark-black {
+    background-color: #403c42;
+}
+
+.checkmark-green {
+    background-color: #3b7022;
+}
+.cardlist a {
+    color: #beb78a;
+    border-bottom: 1px dashed #beb78a;
+}
+
+div label input {
+    margin-right:100px;
+}
+body {
+    font-family:sans-serif;
+}
+
+.ck-button {
+    margin:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+    float:left;
+    border-radius:4px;
+}
+
+.ck-button label {
+    float:left;
+    width:7.0em;
+    margin: 0;
+}
+
+.ck-button label span {
+    text-align:center;
+    padding:5px 0px;
+    display:block;
+    border-radius:4px;
+    cursor: pointer;
+}
+
+.ck-button label input {
+    position:absolute;
+    top:-20px;
+    opacity: 0;
+}
+
+.ck-button input:checked + .basic {
+    background-color:#a6a6a6;
+}
+
+.ck-button input:checked + .common {
+    background-color: #644c41;
+}
+
+.ck-button input:checked + .uncommon {
+    background-color:#5e5e5e;
+}
+
+.ck-button input:checked + .rare {
+    background-color:#978861;
+}
+
+.ck-button input:checked + span {
+    color: white;
+}
+
+.ck-button input:checked + .red {
+    background-color:#6f2224;
+}
+.ck-button input:checked + .blue {
+    background-color:#21496e;
+}
+.ck-button input:checked + .black {
+    background-color:#403c42;
+}
+.ck-button input:checked + .green {
+    background-color:#3b7022;
+}
+.ck-button input:checked + .nocolor {
+    background-color:#a78e32;
+}
+
+.ck-button input:checked + .type {
+    background-color:#6c5c20;
+}
+
+div.narrow {
+    margin: 0 15px 0 15px;
+}
+
+.tooltipwrap .tooltip-inner {
+    max-width: 400px;
+    display: inline;
+    white-space:pre;
+}
+
+.badge.float-right{
+    position: absolute;
+    right: 0;
+}
+
+.ag-button {
+    padding: .25rem .5rem;
+    margin:  .25rem .5rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    cursor: pointer;
+}

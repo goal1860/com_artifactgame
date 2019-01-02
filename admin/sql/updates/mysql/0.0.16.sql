@@ -1,0 +1,3 @@
+ALTER TABLE `#__artifactgame_decks`
+ADD COLUMN `hash` VARCHAR(30) NOT NULL DEFAULT '' ,
+ADD COLUMN `published` TINYINT NOT NULL DEFAULT 1 ;

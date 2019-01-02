@@ -1,0 +1,1 @@
+ALTER TABLE `#__deck` ADD COLUMN `last_updated` DATETIME NULL;
